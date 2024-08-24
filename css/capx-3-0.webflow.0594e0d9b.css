@@ -3289,22 +3289,26 @@ figcaption {
     flex: 0 auto;
     padding: 16px;
   }
-
   .mobile-menu {
     justify-content: flex-end;
     width: 15%;
   }
-
+  
   .mobile-menu.w--open {
     background-color: rgba(0, 0, 0, 0);
   }
-
+  
   .mobile-menu-icon {
-    filter: invert();
     height: 3rem;
     display: flex;
-    fill: #000;
+    filter: invert(1) brightness(0); 
   }
+  
+  .mobile-menu-icon svg {
+    fill: black !important; 
+  }
+  
+
   @media only screen and (max-width: 768px) {
     .mobile-menu-icon  {
         fill: #000; /* Set to black */
