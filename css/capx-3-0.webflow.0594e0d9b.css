@@ -3023,11 +3023,11 @@ figcaption {
     height: 3rem;
     display: flex;
     color: #202124;
-    border-radius: 21px;
+    border-radius: 4rem;
     text-align: center;
     justify-content: center;
     color: white;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 .cta-button-2:hover{
   color: #F6F1F1;
