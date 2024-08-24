@@ -3012,23 +3012,55 @@ figcaption {
   padding: .5rem 1.5rem;
   display: flex;
 }
-
+/* Default styles for larger screens (1440px and above) */
 .cta-button-2 {
   background-color: #202124;
-    grid-column-gap: .8rem;
-    grid-row-gap: .8rem;
-    flex-flow: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 3rem;
-    display: flex;
-    color: #202124;
-    border-radius: 21px;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    margin-left: 150px;
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3rem;
+  display: flex;
+  color: #202124;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-left: 200px;
 }
+
+@media (max-width: 1440px) {
+  .cta-button-2 {
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .cta-button-2 {
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cta-button-2 {
+    margin-left: 150px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-button-2 {
+    margin-left: 100px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-button-2 {
+    margin-left: 50px;
+  }
+}
+
+
 .cta-button-2:hover{
   color: #F6F1F1;
     background-color: #121214;
@@ -3151,7 +3183,7 @@ figcaption {
 .button-4.hero {
   color:#121214;
   background-color: rgba(255, 255, 255, .3);
-  border: 1px rgba(255, 255, 255, .2);
+  border: 2px solid #121214;
   margin-top: 2rem;
   margin-right: 15px;
   padding: .8rem 1.5rem;
@@ -3271,7 +3303,14 @@ figcaption {
     filter: invert();
     height: 3rem;
     display: flex;
+    fill: #000;
   }
+  @media only screen and (max-width: 768px) {
+    .mobile-menu-icon  {
+        fill: #000; /* Set to black */
+    }
+}
+
 
   .footer-grid {
     grid-column-gap: 0px;
@@ -3379,7 +3418,7 @@ figcaption {
   .nav-menu-2 {
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
-    background-color: #010101;
+    background-color: #f4eded;
     border-style: none;
     border-radius: 0;
     height: 100vh;
