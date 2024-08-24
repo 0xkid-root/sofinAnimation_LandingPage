@@ -3023,7 +3023,7 @@ figcaption {
     height: 3rem;
     display: flex;
     color: #202124;
-    border-radius: 4rem;
+    border-radius: 21px;
     text-align: center;
     justify-content: center;
     color: white;
@@ -3555,7 +3555,7 @@ figcaption {
   }
 
   .section-2.hero {
-    background-image: url("../images/6634e425052f756843d5f8a7_this%20is%20getting%20really%20boring.png");
+    /* background-image: url("../images/6634e425052f756843d5f8a7_this%20is%20getting%20really%20boring.png"); */
     background-position: 50%;
     background-repeat: repeat;
     background-size: cover;
@@ -3786,7 +3786,7 @@ figcaption {
   }
 
   .section-2.hero {
-    background-image: url("../images/6634e425052f756843d5f8a7_this%20is%20getting%20really%20boring.png");
+    /* background-image: url("../images/6634e425052f756843d5f8a7_this%20is%20getting%20really%20boring.png"); */
     background-position: 50%;
     background-size: cover;
     height: 100svh;
