@@ -3695,6 +3695,7 @@ figcaption {
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+    background: transparent;
   }
 
   .nav-link {
