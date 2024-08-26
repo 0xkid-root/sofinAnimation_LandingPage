@@ -3446,6 +3446,7 @@ figcaption {
   .container-2 {
     padding-left: 7%;
     padding-right: 7%;
+    margin-top: 140px;
   }
 
   .button-4 {
@@ -3846,7 +3847,7 @@ figcaption {
     background-position: 50%;
     background-size: cover;
     height: 100svh;
-    padding-top: 210px;
+    padding-top: 100px;
   }
 
   .button-3.hero {
