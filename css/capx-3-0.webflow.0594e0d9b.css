@@ -3602,6 +3602,7 @@ figcaption {
     background-position: 50%;
     background-repeat: repeat;
     background-size: cover;
+    overflow: scroll;
   }
 
   .button-4.hero {
@@ -3613,6 +3614,18 @@ figcaption {
     font-size: 3.5rem;
   }
 }
+
+/* @media screen and (max-width: 380px) {
+  .title-3 {
+    width: 95%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 200px;
+  }
+  
+  
+
+}  */
 
 @media screen and (max-width: 479px) {
   h1 {
@@ -3833,7 +3846,7 @@ figcaption {
     background-position: 50%;
     background-size: cover;
     height: 100svh;
-    padding-top: 0;
+    padding-top: 210px;
   }
 
   .button-3.hero {
