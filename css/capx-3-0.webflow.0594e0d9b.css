@@ -1837,7 +1837,7 @@ textarea.w-input, textarea.w-select {
 
 .w-nav {
   z-index: 1000;
-  background: #ddd;
+  /* background: #ddd; */
   position: relative;
 }
 
@@ -1988,6 +1988,13 @@ textarea.w-input, textarea.w-select {
     padding-left: 10px;
   }
 }
+
+/* @media only screen and (max-width: 420px) and (orientation: landscape) {
+  .navbar {
+      background-color: #f4eded !important;
+  }
+} */
+
 
 @media screen and (max-width: 479px) {
   .w-nav[data-collapse="tiny"] .w-nav-menu {
@@ -2494,7 +2501,7 @@ figcaption {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  /* background-color: rgba(0, 0, 0, 0); */
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -3256,6 +3263,7 @@ figcaption {
     height: 7rem;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #f4eded;
   }
 
   .nav-link {
